@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import streamlit as st  
 
-genai.configure(api_key="AIzaSyBfYBTLY9P0ubbiOMIqhtctYYd1kawWlXY")
+genai.configure(api_key="Enter_Your_API_Key")
 
 sys_prompt = """You are an advanced AI code reviewer with deep expertise in programming, best practices, and optimization techniques. Your task is to review the given code and provide the following:
 
